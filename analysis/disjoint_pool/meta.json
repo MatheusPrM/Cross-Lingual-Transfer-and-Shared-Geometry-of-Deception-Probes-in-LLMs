@@ -1,0 +1,35 @@
+{
+ "contents": "Run-of-record outputs of the disjoint-pool robustness analysis: cosine contrast and summary tables, half-pool transfer summary, half-swap stability, near-duplicate scan, and per-model half-probe directions (half_directions.npz) with their fit metadata (fit_meta.json).",
+ "produced_by": [
+  "scripts/analysis/disjoint_pool_probes.py",
+  "scripts/analysis/disjoint_pool_transfer.py"
+ ],
+ "bootstrap": {
+  "B": 2000,
+  "seed": 42,
+  "noninferiority_margin": 0.05
+ },
+ "parity_gate": "passed",
+ "design": {
+  "fact_universe": "306 label==1 statements (the generic loader's exact filter); duplicate-equivalent facts grouped so no group spans halves (~153 facts per half)",
+  "matched_half_a": "all probes trained on fact half A (same facts across languages, half-size pool)",
+  "matched_half_b": "all probes trained on fact half B",
+  "disjoint": "cross probes from half B against half-A baselines \u2014 zero shared training facts between any compared pair",
+  "structural_note": "D_AB + D_BA = M_A + M_B is an algebraic identity for any scorer, so a symmetrized matched-vs-disjoint transfer contrast is tautologically zero. The eval set's externality means each marginal AUROC cannot be item-inflated. Train-item sharing CAN inflate cross-language probe SIMILARITY \u2014 readout 1 (cosine contrast) is the decisive test; the 'difference' condition is exactly a B-vs-A half-swap stability/noise diagnostic, never overlap evidence."
+ },
+ "interpretation_prespecified": {
+  "primary": "DESCRIPTIVE ONLY: the cosine contrast reported as all per-seed values plus mean, SD and range (the ten seeds are overlapping partitions of one fact pool, not independent datasets; no CI-like interval is computed and no binary verdict is emitted)",
+  "reference_scale": "the within-language split-half cosine decrement already on record (results/workshop/probe-reliability: 1 - cos ~= 0.04-0.08) is the natural yardstick for reading the contrast's magnitude \u2014 context, not a pass/fail test",
+  "note": "an earlier -0.05 cosine margin was removed: it 'mirrored' the AUROC noninferiority margin, but the metrics have unrelated scales. A zero-crossing seed interval is NOT evidence of equivalence.",
+  "disjointness_claim": "disjoint row IDs with duplicate-equivalent facts grouped (multilingual union + frozen manual list) \u2014 not absolute semantic independence",
+  "fixed_before_results": true
+ },
+ "provenance_note": "The per-model fit_meta.json files are the unmodified records of the original runs. Identifiers inside them (code hashes, git commit) describe the authors' execution environment at run time, not files in this repository.",
+ "file_sha256": {
+  "cosine_contrast.csv": "21a664bc8be6a3eab24cdb0ad1512d47c8a15e4cb99e576ca106a5357618c3e7",
+  "cosine_summary.csv": "7b9a70bb8ce4e2c34661deda0610ae6c48e48d1963b6f53b27f4c5bd4156fa41",
+  "half_swap_stability.csv": "606395dec7caba30ae5c6c11081c435efbb9cb66fbb6c4f81415697a6a2dc5f4",
+  "near_duplicate_scan.csv": "5b615d680c37472c1162c39e48f23427446f45fec2c50356f9518df533aa30f2",
+  "transfer_summary.csv": "4776d9879378382ba54c776ffed5540e14e144ac4d986dde0cce175eeeb88e14"
+ }
+}

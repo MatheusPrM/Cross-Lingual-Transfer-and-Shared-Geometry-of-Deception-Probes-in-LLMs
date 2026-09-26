@@ -1,0 +1,176 @@
+{
+  "created_utc": "2026-07-28T16:39:56.200833+00:00",
+  "B": 2000,
+  "seed": 42,
+  "quantiles": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "registered_headline": "q99, both calibration sources",
+  "ci_convention": "scenario-clustered percentile 95%; threshold treated as FIXED (calibration uncertainty excluded \u2014 measured-FPR convention)",
+  "control_rescale": "control CSV scores divided by probe direction norms (db_control_scores archived unnormalized-direction scores)",
+  "split": "scenario-level 50/50 of the honest pool, seed 42; BOTH measurement pools exclude calibration scenarios entirely",
+  "models": {
+    "llama-8b": {
+      "layer": 16,
+      "splits": {
+        "en": {
+          "n_honest_scens": 58,
+          "calib_sha256": "484b89335c01730f74659c5c8b4ec7bad27329911ba738bf1652716110ac8dad"
+        },
+        "pt": {
+          "n_honest_scens": 92,
+          "calib_sha256": "ed7a4b7d5e5b3c82e1da1624cd11858428fb0b0ba35434a5a29516961be7ab3d"
+        },
+        "es": {
+          "n_honest_scens": 64,
+          "calib_sha256": "cd6b39ef756c6b7e40c8ddaec257dfbc4cefa1bdfa6c5657f2974d527459a37a"
+        },
+        "de": {
+          "n_honest_scens": 71,
+          "calib_sha256": "0b2f405e728f698ccf29dbdaa2e5e05626762e0cfcca8e7f15ae6052500c3284"
+        },
+        "zh": {
+          "n_honest_scens": 65,
+          "calib_sha256": "48986838a6b9a44ab2886d4c4f73925a1d8792d3e3681603a38a14183ea621d4"
+        }
+      },
+      "probe_dir_norms": {
+        "en": 11.321026802062988,
+        "pt": 15.974151611328125,
+        "es": 20.78019905090332,
+        "de": 40.543704986572266,
+        "zh": 20.97607421875
+      }
+    },
+    "aya-expanse-8b": {
+      "layer": 18,
+      "splits": {
+        "en": {
+          "n_honest_scens": 129,
+          "calib_sha256": "7a8f23194016ad204d1776e9e0804c001de8cdf7639c9c26d63c2a8d29ab854c"
+        },
+        "pt": {
+          "n_honest_scens": 124,
+          "calib_sha256": "9aba67a2d64a3c5014b583d6186ab362f6b3dbb83f6ec11ab1f4bc324ce741bd"
+        },
+        "es": {
+          "n_honest_scens": 117,
+          "calib_sha256": "c9bba8a416d6e0a90f42ddad28e900bcec04c15712c521f7529f9b18a09afa56"
+        },
+        "de": {
+          "n_honest_scens": 108,
+          "calib_sha256": "3bdf2a56bc7dd94fd9c225fa31e305e63ac661e0a4146c04f9e9fd2a6de15564"
+        },
+        "zh": {
+          "n_honest_scens": 127,
+          "calib_sha256": "05555946369c97748c8edcb359900dcf0f25d1015bbaddb80349ed89a57226f0"
+        }
+      },
+      "probe_dir_norms": {
+        "en": 4.473425388336182,
+        "pt": 3.9012856483459473,
+        "es": 4.191875457763672,
+        "de": 5.693249702453613,
+        "zh": 3.8627190589904785
+      }
+    },
+    "gemma-2b": {
+      "layer": 16,
+      "splits": {
+        "en": {
+          "n_honest_scens": 132,
+          "calib_sha256": "9140bc6bd4ad70055690e66e7ce4a8d2a509a71504d465f6e2323613ea1bf03c"
+        },
+        "pt": {
+          "n_honest_scens": 134,
+          "calib_sha256": "9b5cb409c32abd0395555acc5c59d39a2480749fc60e2b017fb6b1b8c8751925"
+        },
+        "es": {
+          "n_honest_scens": 126,
+          "calib_sha256": "08ae6aad8cedcbef2f31590f7d5a1b7f5eb2a067c42d2f02b29df1e4168bca1a"
+        },
+        "de": {
+          "n_honest_scens": 111,
+          "calib_sha256": "32c592c692fe59e389ce41f5c527723f11c70a746c725f9d4b853fe588ded722"
+        },
+        "zh": {
+          "n_honest_scens": 126,
+          "calib_sha256": "61c8f27f2d60c6d35228f7716337f54360ed8a45515a8469ca8fa42ee65f9623"
+        }
+      },
+      "probe_dir_norms": {
+        "en": 0.5102776288986206,
+        "pt": 1.1377912759780884,
+        "es": 0.9890602827072144,
+        "de": 1.938930630683899,
+        "zh": 0.7242660522460938
+      }
+    },
+    "gemma-4-e4b": {
+      "layer": 26,
+      "splits": {
+        "en": {
+          "n_honest_scens": 116,
+          "calib_sha256": "006e7c28728fe8ea6b9cfb82d7758f5218a891ccecc6d7d27ce6b1758bd3d7a9"
+        },
+        "pt": {
+          "n_honest_scens": 133,
+          "calib_sha256": "49b199d3e8e3d7318df027208a8d19d07b14c29cc854736a126cfc443e253999"
+        },
+        "es": {
+          "n_honest_scens": 130,
+          "calib_sha256": "5d3efef2f683681ac364c1c2f28d2d36249e37169cfda79c5ff3b8ddb47b3440"
+        },
+        "de": {
+          "n_honest_scens": 91,
+          "calib_sha256": "d9b6ab55eeeb081ba0bc0e59d4686b13bb8e51083de5f4152955b1031e139e18"
+        },
+        "zh": {
+          "n_honest_scens": 133,
+          "calib_sha256": "65c5f81dd9d3eb0d5d04f9b9e8844dd990a0ca11d77683133b1221463b1340db"
+        }
+      },
+      "probe_dir_norms": {
+        "en": 1.6143302917480469,
+        "pt": 2.674178123474121,
+        "es": 2.6386208534240723,
+        "de": 2.323864459991455,
+        "zh": 2.0979652404785156
+      }
+    },
+    "qwen3.5-9b": {
+      "layer": 18,
+      "splits": {
+        "en": {
+          "n_honest_scens": 145,
+          "calib_sha256": "46ef4a21885fcb5a94eea896f351b0a1de2a6bd43a0accd720f6d1bf149289b2"
+        },
+        "pt": {
+          "n_honest_scens": 145,
+          "calib_sha256": "2b5c4fa3fac9d476217bbb51e940fdbbfd3a770be0f89338bcba1dbc1287f332"
+        },
+        "es": {
+          "n_honest_scens": 144,
+          "calib_sha256": "591a03c22db2198439aa90a4b15c2479bec461c1a3b894e3e111e81eaac88da2"
+        },
+        "de": {
+          "n_honest_scens": 113,
+          "calib_sha256": "c9a9946c125fa9e13da19af73920c1867a953b12e1ac5b56e13386470cb4af8a"
+        },
+        "zh": {
+          "n_honest_scens": 142,
+          "calib_sha256": "ab4f2b78e438b75d4ec9d97ee8bef8783b90d0cc9495688952c340d877e4c109"
+        }
+      },
+      "probe_dir_norms": {
+        "en": 5.125396728515625,
+        "pt": 7.300191879272461,
+        "es": 6.465279579162598,
+        "de": 11.113678932189941,
+        "zh": 5.111765384674072
+      }
+    }
+  }
+}

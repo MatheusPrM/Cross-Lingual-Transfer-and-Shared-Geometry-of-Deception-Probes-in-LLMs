@@ -1,0 +1,16 @@
+model,control_category,lang,layer,cosine_deception_vs_control
+aya-expanse-8b,formality,en,18,0.25558435916900635
+aya-expanse-8b,formality,pt,18,0.24794696271419525
+aya-expanse-8b,formality,es,18,0.22706672549247742
+aya-expanse-8b,formality,de,18,0.26086199283599854
+aya-expanse-8b,formality,zh,18,0.3766975998878479
+aya-expanse-8b,politeness,en,18,0.6482148766517639
+aya-expanse-8b,politeness,pt,18,0.6179277896881104
+aya-expanse-8b,politeness,es,18,0.6292988657951355
+aya-expanse-8b,politeness,de,18,0.5549888610839844
+aya-expanse-8b,politeness,zh,18,0.6124594211578369
+aya-expanse-8b,truthfulness,en,18,0.008211441338062286
+aya-expanse-8b,truthfulness,pt,18,0.02881305105984211
+aya-expanse-8b,truthfulness,es,18,-0.0026489845477044582
+aya-expanse-8b,truthfulness,de,18,0.006083139218389988
+aya-expanse-8b,truthfulness,zh,18,0.05248350650072098

@@ -1,0 +1,53 @@
+{
+  "chosen_layer": 18,
+  "val_auroc": 1.0,
+  "val_margin": 10.8613187789917,
+  "max_val_auroc": 1.0,
+  "epsilon": 0.005,
+  "tie_breaking_used": true,
+  "tie_break_rule": "val_margin",
+  "n_candidates": 5,
+  "candidate_layers": [
+    14,
+    16,
+    18,
+    20,
+    22
+  ],
+  "all_layer_val_aurocs": [
+    [
+      8,
+      0.968411490762696
+    ],
+    [
+      10,
+      0.9362953772790537
+    ],
+    [
+      12,
+      0.9860123561158776
+    ],
+    [
+      14,
+      0.9951393656556244
+    ],
+    [
+      16,
+      1.0
+    ],
+    [
+      18,
+      1.0
+    ],
+    [
+      20,
+      1.0
+    ],
+    [
+      22,
+      0.9999462510077936
+    ]
+  ],
+  "model": "aya-expanse-8b",
+  "train_data": "repe_generic_en"
+}

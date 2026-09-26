@@ -1,0 +1,16 @@
+model,control_category,lang,layer,cosine_deception_vs_control
+gemma-2b,formality,en,16,0.1901172250509262
+gemma-2b,formality,pt,16,0.11341659724712372
+gemma-2b,formality,es,16,0.4072173833847046
+gemma-2b,formality,de,16,0.2976956367492676
+gemma-2b,formality,zh,16,0.30321162939071655
+gemma-2b,politeness,en,16,0.5531744956970215
+gemma-2b,politeness,pt,16,0.5423204898834229
+gemma-2b,politeness,es,16,0.5321446657180786
+gemma-2b,politeness,de,16,0.2665708661079407
+gemma-2b,politeness,zh,16,0.5817848443984985
+gemma-2b,truthfulness,en,16,0.11445559561252594
+gemma-2b,truthfulness,pt,16,0.04334036260843277
+gemma-2b,truthfulness,es,16,0.06208353117108345
+gemma-2b,truthfulness,de,16,0.05288497731089592
+gemma-2b,truthfulness,zh,16,0.06162257492542267

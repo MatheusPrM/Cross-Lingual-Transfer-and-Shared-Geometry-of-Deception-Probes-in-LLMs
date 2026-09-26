@@ -1,0 +1,11 @@
+model,lang_a,lang_b,cka_linear,n_matched,n_a,n_b,n_admitted_a,n_nonadmitted_a,n_admitted_b,n_nonadmitted_b,population
+qwen3.5-9b,en,pt,0.5425471276939601,900,900,900,723,177,725,175,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+qwen3.5-9b,en,es,0.5157218341628205,900,900,900,723,177,715,185,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+qwen3.5-9b,en,de,0.5049130705065844,900,900,900,723,177,513,387,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+qwen3.5-9b,en,zh,0.4830994702907256,900,900,900,723,177,752,148,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+qwen3.5-9b,pt,es,0.6260537434895405,900,900,900,725,175,715,185,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+qwen3.5-9b,pt,de,0.5684222697704162,900,900,900,725,175,513,387,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+qwen3.5-9b,pt,zh,0.5265040432605624,900,900,900,725,175,752,148,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+qwen3.5-9b,es,de,0.5578828320983084,900,900,900,715,185,513,387,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+qwen3.5-9b,es,zh,0.5152478109721359,900,900,900,715,185,752,148,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+qwen3.5-9b,de,zh,0.5393177437056331,900,900,900,513,387,752,148,full 900-item DeceptionBench corpus (admitted + nonadmitted)

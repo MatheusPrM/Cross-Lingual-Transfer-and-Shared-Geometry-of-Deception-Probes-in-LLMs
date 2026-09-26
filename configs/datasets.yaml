@@ -1,0 +1,239 @@
+datasets:
+- id: repe_generic_en
+  path: datasets/training/repe/true_false_facts_en.csv
+  split: training
+  language: en
+  family: repe
+  category: generic
+  notes: "RepE generic-instructed-deception (English) \u2014 canonical training id."
+- id: repe_generic_pt
+  path: datasets/training/repe/true_false_facts_pt.csv
+  split: training
+  language: pt
+  family: repe
+  category: generic
+  notes: RepE generic-instructed-deception (Portuguese).
+- id: repe_generic_es
+  path: datasets/training/repe/true_false_facts_es.csv
+  split: training
+  language: es
+  family: repe
+  category: generic
+  notes: RepE generic-instructed-deception (Spanish).
+- id: repe_generic_de
+  path: datasets/training/repe/true_false_facts_de.csv
+  split: training
+  language: de
+  family: repe
+  category: generic
+  notes: "RepE generic-instructed-deception (German)."
+- id: repe_generic_zh
+  path: datasets/training/repe/true_false_facts_zh.csv
+  split: training
+  language: zh
+  family: repe
+  category: generic
+  notes: RepE generic-instructed-deception (Chinese).
+- id: repe_formality_en
+  path: datasets/training/repe/true_false_facts_en.csv
+  split: training
+  language: en
+  family: repe
+  category: formality
+  notes: 'Control concept: formal vs informal register (English). Not deception.'
+- id: repe_formality_pt
+  path: datasets/training/repe/true_false_facts_pt.csv
+  split: training
+  language: pt
+  family: repe
+  category: formality
+  notes: 'Control concept: formal vs informal register (Portuguese).'
+- id: repe_formality_es
+  path: datasets/training/repe/true_false_facts_es.csv
+  split: training
+  language: es
+  family: repe
+  category: formality
+  notes: 'Control concept: formal vs informal register (Spanish).'
+- id: repe_formality_de
+  path: datasets/training/repe/true_false_facts_de.csv
+  split: training
+  language: de
+  family: repe
+  category: formality
+  notes: 'Control concept: formal vs informal register (German).'
+- id: repe_formality_zh
+  path: datasets/training/repe/true_false_facts_zh.csv
+  split: training
+  language: zh
+  family: repe
+  category: formality
+  notes: 'Control concept: formal vs informal register (Chinese).'
+- id: repe_politeness_en
+  path: datasets/training/repe/true_false_facts_en.csv
+  split: training
+  language: en
+  family: repe
+  category: politeness
+  notes: 'Control concept: polite vs rude tone (English). Not deception.'
+- id: repe_politeness_pt
+  path: datasets/training/repe/true_false_facts_pt.csv
+  split: training
+  language: pt
+  family: repe
+  category: politeness
+  notes: 'Control concept: polite vs rude tone (Portuguese).'
+- id: repe_politeness_es
+  path: datasets/training/repe/true_false_facts_es.csv
+  split: training
+  language: es
+  family: repe
+  category: politeness
+  notes: 'Control concept: polite vs rude tone (Spanish).'
+- id: repe_politeness_de
+  path: datasets/training/repe/true_false_facts_de.csv
+  split: training
+  language: de
+  family: repe
+  category: politeness
+  notes: 'Control concept: polite vs rude tone (German).'
+- id: repe_politeness_zh
+  path: datasets/training/repe/true_false_facts_zh.csv
+  split: training
+  language: zh
+  family: repe
+  category: politeness
+  notes: 'Control concept: polite vs rude tone (Chinese).'
+- id: repe_truthfulness_en
+  path: datasets/training/repe/true_false_facts_en.csv
+  split: training
+  language: en
+  family: repe
+  category: truthfulness
+  notes: 'Near-control: true vs false statement (English). Tests falsity-detection
+    vs deception.'
+- id: repe_sentiment_en
+  path: datasets/training/sentiment/sentiment_en.csv
+  split: training
+  language: en
+  family: repe
+  category: sentiment
+  notes: Sentiment case study, native track (UMSAB tweets). 1=positive, 0=negative.
+- id: repe_sentiment_pt
+  path: datasets/training/sentiment/sentiment_pt.csv
+  split: training
+  language: pt
+  family: repe
+  category: sentiment
+  notes: Sentiment case study, native track (UMSAB tweets). 1=positive, 0=negative.
+- id: repe_sentiment_es
+  path: datasets/training/sentiment/sentiment_es.csv
+  split: training
+  language: es
+  family: repe
+  category: sentiment
+  notes: Sentiment case study, native track (UMSAB tweets). 1=positive, 0=negative.
+- id: repe_sentiment_de
+  path: datasets/training/sentiment/sentiment_de.csv
+  split: training
+  language: de
+  family: repe
+  category: sentiment
+  notes: Sentiment case study, native track (UMSAB tweets). 1=positive, 0=negative.
+- id: repe_sentiment_zh
+  path: datasets/training/sentiment/sentiment_zh.csv
+  split: training
+  language: zh
+  family: repe
+  category: sentiment
+  notes: Sentiment case study, native track (UMSAB tweets / ChnSentiCorp). 1=positive,
+    0=negative.
+- id: repe_truthfulness_pt
+  path: datasets/training/repe/true_false_facts_pt.csv
+  split: training
+  language: pt
+  family: repe
+  category: truthfulness
+  notes: 'Near-control: true vs false statement (Portuguese).'
+- id: repe_truthfulness_es
+  path: datasets/training/repe/true_false_facts_es.csv
+  split: training
+  language: es
+  family: repe
+  category: truthfulness
+  notes: 'Near-control: true vs false statement (Spanish).'
+- id: repe_truthfulness_de
+  path: datasets/training/repe/true_false_facts_de.csv
+  split: training
+  language: de
+  family: repe
+  category: truthfulness
+  notes: 'Near-control: true vs false statement (German).'
+- id: repe_truthfulness_zh
+  path: datasets/training/repe/true_false_facts_zh.csv
+  split: training
+  language: zh
+  family: repe
+  category: truthfulness
+  notes: 'Near-control: true vs false statement (Chinese).'
+- id: control_en
+  path: datasets/evaluation/control/control_en.json
+  split: evaluation
+  language: en
+  family: control
+  notes: Control / calibration set, English (Alpaca-style JSON).
+- id: control_pt
+  path: datasets/evaluation/control/control_pt.json
+  split: evaluation
+  language: pt
+  family: control
+  notes: Control / calibration set, Portuguese.
+- id: control_es
+  path: datasets/evaluation/control/control_es.json
+  split: evaluation
+  language: es
+  family: control
+  notes: Control / calibration set, Spanish (create via translation first).
+- id: control_de
+  path: datasets/evaluation/control/control_de.json
+  split: evaluation
+  language: de
+  family: control
+  notes: Control / calibration set, German (create via translation first).
+- id: control_zh
+  path: datasets/evaluation/control/control_zh.json
+  split: evaluation
+  language: zh
+  family: control
+  notes: Control / calibration set, Chinese (create via translation first).
+- id: deceptionbench_en
+  path: datasets/evaluation/deceptionbench/
+  split: evaluation
+  language: en
+  family: deceptionbench
+  notes: 'DeceptionBench EN: 5 domain JSONs (economy/education/entertainment/healthcare/social);
+    150 scenarios x 6 conditions.'
+- id: deceptionbench_pt
+  path: datasets/evaluation/deceptionbench/
+  split: evaluation
+  language: pt
+  family: deceptionbench
+  notes: 'DeceptionBench PT: bilingual JSONs with *_pt sibling fields (Google v3 translations).'
+- id: deceptionbench_es
+  path: datasets/evaluation/deceptionbench/
+  split: evaluation
+  language: es
+  family: deceptionbench
+  notes: 'DeceptionBench ES: bilingual JSONs with *_es sibling fields.'
+- id: deceptionbench_de
+  path: datasets/evaluation/deceptionbench/
+  split: evaluation
+  language: de
+  family: deceptionbench
+  notes: 'DeceptionBench DE: bilingual JSONs with *_de sibling fields.'
+- id: deceptionbench_zh
+  path: datasets/evaluation/deceptionbench/
+  split: evaluation
+  language: zh
+  family: deceptionbench
+  notes: 'DeceptionBench ZH: bilingual JSONs with *_zh sibling fields.'

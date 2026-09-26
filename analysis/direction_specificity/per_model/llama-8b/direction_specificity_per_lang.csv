@@ -1,0 +1,16 @@
+model,control_category,lang,layer,cosine_deception_vs_control
+llama-8b,formality,en,16,0.09687727689743042
+llama-8b,formality,pt,16,0.22838984429836273
+llama-8b,formality,es,16,0.3620589077472687
+llama-8b,formality,de,16,0.15054763853549957
+llama-8b,formality,zh,16,0.23497998714447021
+llama-8b,politeness,en,16,0.5585763454437256
+llama-8b,politeness,pt,16,0.4462369680404663
+llama-8b,politeness,es,16,0.637394905090332
+llama-8b,politeness,de,16,0.4738718271255493
+llama-8b,politeness,zh,16,0.6547149419784546
+llama-8b,truthfulness,en,16,0.06861516833305359
+llama-8b,truthfulness,pt,16,0.050053585320711136
+llama-8b,truthfulness,es,16,0.09049440175294876
+llama-8b,truthfulness,de,16,0.07751061022281647
+llama-8b,truthfulness,zh,16,0.044251199811697006

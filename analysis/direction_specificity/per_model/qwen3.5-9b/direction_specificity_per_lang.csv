@@ -1,0 +1,16 @@
+model,control_category,lang,layer,cosine_deception_vs_control
+qwen3.5-9b,formality,en,18,-0.07541036605834961
+qwen3.5-9b,formality,pt,18,0.02688531205058098
+qwen3.5-9b,formality,es,18,0.13046079874038696
+qwen3.5-9b,formality,de,18,0.11945948004722595
+qwen3.5-9b,formality,zh,18,0.34439295530319214
+qwen3.5-9b,politeness,en,18,0.5020648241043091
+qwen3.5-9b,politeness,pt,18,0.46842336654663086
+qwen3.5-9b,politeness,es,18,0.7258371114730835
+qwen3.5-9b,politeness,de,18,0.3181288540363312
+qwen3.5-9b,politeness,zh,18,0.6766220927238464
+qwen3.5-9b,truthfulness,en,18,-0.039245374500751495
+qwen3.5-9b,truthfulness,pt,18,-0.005230561830103397
+qwen3.5-9b,truthfulness,es,18,-0.02885441854596138
+qwen3.5-9b,truthfulness,de,18,-0.0004537254571914673
+qwen3.5-9b,truthfulness,zh,18,0.03145105764269829

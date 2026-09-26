@@ -1,0 +1,5 @@
+{
+ "created_utc": "2026-08-11T08:23:37.971019+00:00",
+ "spec": "A = mu + alpha_s + beta_t + delta*1[s=t]; sum-to-zero contrasts; per-replicate refit on archived shared-frame draws (transfer_stats/bootstrap_draws.npz); percentile 95% CIs; no new resampling; r2_additive is the alpha+beta model WITHOUT the matched indicator; delta from the full model",
+ "cell_order": "itertools.product(LANGS, LANGS) with LANGS=[en,pt,es,de,zh]; archived reps axis is (B, train-canonical, eval-SORTED), remapped to canonical; axis check reproduces this run's per-cell CIs to 1e-6 (float32 archive)"
+}

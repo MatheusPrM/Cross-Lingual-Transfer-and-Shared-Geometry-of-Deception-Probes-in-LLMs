@@ -1,0 +1,133 @@
+{
+  "created_utc": "2026-07-30T20:53:52.878094+00:00",
+  "B": 2000,
+  "seed": 42,
+  "registered": true,
+  "cluster_unit": "scenario_id; all admitted responses from a drawn scenario repeated with that scenario's draw multiplicity",
+  "shared_draws": "one deterministic count matrix per model, shared across all eval languages, train probes, controls, forward/converse fits, and correlations; same construction as transfer_stats",
+  "ci": "95% percentile scenario-clustered bootstrap; unadjusted descriptive CIs",
+  "bootstrap_refit": "forward and converse OLS residualization refit within every bootstrap replicate",
+  "design": "residual = OLS(target ~ intercept + language-matched control scores + length); converse = control residualized on [deception score, length]",
+  "draw_axes": {
+    "auroc_raw/auroc_residualized/auroc_change/spearman_length": "B x train_lang x eval_lang",
+    "control_auroc_raw": "B x eval_lang x control_category",
+    "spearman_control/converse_auroc_residualized/converse_auroc_change": "B x train_lang x eval_lang x control_category",
+    "language_order": [
+      "en",
+      "pt",
+      "es",
+      "de",
+      "zh"
+    ],
+    "control_category_order": [
+      "formality",
+      "politeness",
+      "truthfulness",
+      "sentiment"
+    ],
+    "auroc_change_sign": "residualized minus raw",
+    "converse_change_sign": "residualized converse minus raw control AUROC"
+  },
+  "models": {
+    "llama-8b": {
+      "layer": 16,
+      "missing_control_probes": [],
+      "n_scenarios": 138,
+      "frame_sha256": "525c44f81ba6afe353af0c066df325d9ea76d914599b9c468137afefbccd2d92",
+      "n_items": {
+        "en": 381,
+        "pt": 500,
+        "es": 411,
+        "de": 451,
+        "zh": 480
+      },
+      "n_scenarios_observed": {
+        "en": 105,
+        "pt": 119,
+        "es": 111,
+        "de": 126,
+        "zh": 124
+      }
+    },
+    "aya-expanse-8b": {
+      "layer": 18,
+      "missing_control_probes": [],
+      "n_scenarios": 150,
+      "frame_sha256": "f7f7b197a862d5ccfd87b109253f248d548493e9226d1bee3b5a3ddb6c60e0d3",
+      "n_items": {
+        "en": 872,
+        "pt": 864,
+        "es": 850,
+        "de": 809,
+        "zh": 860
+      },
+      "n_scenarios_observed": {
+        "en": 150,
+        "pt": 150,
+        "es": 150,
+        "de": 148,
+        "zh": 149
+      }
+    },
+    "gemma-2b": {
+      "layer": 16,
+      "missing_control_probes": [],
+      "n_scenarios": 149,
+      "frame_sha256": "c308e22476cc182efd64413ccf70f02754e7e4f908c970fd98f0e46dd39e830e",
+      "n_items": {
+        "en": 749,
+        "pt": 736,
+        "es": 695,
+        "de": 620,
+        "zh": 689
+      },
+      "n_scenarios_observed": {
+        "en": 146,
+        "pt": 147,
+        "es": 146,
+        "de": 139,
+        "zh": 139
+      }
+    },
+    "gemma-4-e4b": {
+      "layer": 26,
+      "missing_control_probes": [],
+      "n_scenarios": 150,
+      "frame_sha256": "f7f7b197a862d5ccfd87b109253f248d548493e9226d1bee3b5a3ddb6c60e0d3",
+      "n_items": {
+        "en": 565,
+        "pt": 695,
+        "es": 681,
+        "de": 524,
+        "zh": 688
+      },
+      "n_scenarios_observed": {
+        "en": 131,
+        "pt": 139,
+        "es": 140,
+        "de": 122,
+        "zh": 142
+      }
+    },
+    "qwen3.5-9b": {
+      "layer": 18,
+      "missing_control_probes": [],
+      "n_scenarios": 150,
+      "frame_sha256": "f7f7b197a862d5ccfd87b109253f248d548493e9226d1bee3b5a3ddb6c60e0d3",
+      "n_items": {
+        "en": 723,
+        "pt": 725,
+        "es": 715,
+        "de": 513,
+        "zh": 752
+      },
+      "n_scenarios_observed": {
+        "en": 147,
+        "pt": 146,
+        "es": 148,
+        "de": 124,
+        "zh": 145
+      }
+    }
+  }
+}

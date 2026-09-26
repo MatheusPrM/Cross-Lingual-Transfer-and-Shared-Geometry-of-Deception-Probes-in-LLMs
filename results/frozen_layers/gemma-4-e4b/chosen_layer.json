@@ -1,0 +1,41 @@
+{
+  "chosen_layer": 26,
+  "val_auroc": 1.0,
+  "val_margin": 14.136729621887207,
+  "max_val_auroc": 1.0,
+  "epsilon": 0.005,
+  "tie_breaking_used": true,
+  "tie_break_rule": "val_margin",
+  "n_candidates": 5,
+  "candidate_layers": [
+    18,
+    22,
+    26,
+    30,
+    34
+  ],
+  "all_layer_val_aurocs": [
+    [
+      18,
+      0.998925020155872
+    ],
+    [
+      22,
+      1.0
+    ],
+    [
+      26,
+      1.0
+    ],
+    [
+      30,
+      1.0
+    ],
+    [
+      34,
+      1.0
+    ]
+  ],
+  "model": "gemma-4-e4b",
+  "train_data": "repe_generic_en"
+}

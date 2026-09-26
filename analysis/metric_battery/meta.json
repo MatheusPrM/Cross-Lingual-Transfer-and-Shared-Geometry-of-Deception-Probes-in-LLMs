@@ -1,0 +1,96 @@
+{
+  "created_utc": "2026-07-30T20:50:44.994236+00:00",
+  "notes": {
+    "cles": "empirical CLES equals AUROC by identity; column kept for the paper table",
+    "brier_ece": "p = sigmoid(unit score x direction norm - reconstructed offset), including scaler centering and classifier intercept; this is the saved detector's true logit; cross-language miscalibration is an expected, reported finding",
+    "eos_only": "pre-specified sensitivity: rows with termination == 'eos' only",
+    "truncation": "cap_rate_all uses all 900 accounted rollouts; admitted-only and class-conditional admitted rates are named explicitly"
+  },
+  "models": {
+    "llama-8b": {
+      "layer": 16,
+      "probe_dir_norms": {
+        "en": 11.321026802062988,
+        "pt": 15.974151611328125,
+        "es": 20.78019905090332,
+        "de": 40.543704986572266,
+        "zh": 20.97607421875
+      },
+      "probe_logit_offsets": {
+        "en": -0.9079979062080383,
+        "pt": 1.5530904531478882,
+        "es": -1.6873533725738525,
+        "de": -0.1085360050201416,
+        "zh": -2.9145259857177734
+      }
+    },
+    "aya-expanse-8b": {
+      "layer": 18,
+      "probe_dir_norms": {
+        "en": 4.473425388336182,
+        "pt": 3.9012856483459473,
+        "es": 4.191875457763672,
+        "de": 5.693249702453613,
+        "zh": 3.8627190589904785
+      },
+      "probe_logit_offsets": {
+        "en": 0.6424462199211121,
+        "pt": 1.0803513526916504,
+        "es": 1.5180673599243164,
+        "de": 3.574496030807495,
+        "zh": 1.1842987537384033
+      }
+    },
+    "gemma-2b": {
+      "layer": 16,
+      "probe_dir_norms": {
+        "en": 0.5102776288986206,
+        "pt": 1.1377912759780884,
+        "es": 0.9890602827072144,
+        "de": 1.938930630683899,
+        "zh": 0.7242660522460938
+      },
+      "probe_logit_offsets": {
+        "en": 0.8012248873710632,
+        "pt": 0.9184700846672058,
+        "es": 1.1946934461593628,
+        "de": -0.0009342432022094727,
+        "zh": -0.10603225231170654
+      }
+    },
+    "gemma-4-e4b": {
+      "layer": 26,
+      "probe_dir_norms": {
+        "en": 1.6143302917480469,
+        "pt": 2.674178123474121,
+        "es": 2.6386208534240723,
+        "de": 2.323864459991455,
+        "zh": 2.0979652404785156
+      },
+      "probe_logit_offsets": {
+        "en": -1.4161430597305298,
+        "pt": 2.6744630336761475,
+        "es": 0.9529348611831665,
+        "de": 0.04838460683822632,
+        "zh": -1.1767792701721191
+      }
+    },
+    "qwen3.5-9b": {
+      "layer": 18,
+      "probe_dir_norms": {
+        "en": 5.125396728515625,
+        "pt": 7.300191879272461,
+        "es": 6.465279579162598,
+        "de": 11.113678932189941,
+        "zh": 5.111765384674072
+      },
+      "probe_logit_offsets": {
+        "en": 1.389991044998169,
+        "pt": -0.169563889503479,
+        "es": 0.31230977177619934,
+        "de": 1.40975821018219,
+        "zh": -0.10194352269172668
+      }
+    }
+  }
+}

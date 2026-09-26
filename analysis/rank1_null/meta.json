@@ -1,0 +1,4 @@
+{
+ "created_utc": "2026-08-11T08:23:42.182406+00:00",
+ "spec": "5 iid standard-normal d-vectors, unit-normalized, stacked; uncentered rank-1 energy; 2000 draws; default_rng(42); descriptive null, no hypothesis test"
+}

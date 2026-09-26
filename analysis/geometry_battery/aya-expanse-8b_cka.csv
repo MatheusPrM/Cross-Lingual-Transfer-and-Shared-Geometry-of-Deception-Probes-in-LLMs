@@ -1,0 +1,11 @@
+model,lang_a,lang_b,cka_linear,n_matched,n_a,n_b,n_admitted_a,n_nonadmitted_a,n_admitted_b,n_nonadmitted_b,population
+aya-expanse-8b,en,pt,0.7518465715384053,900,900,900,872,28,864,36,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+aya-expanse-8b,en,es,0.7410348926396797,900,900,900,872,28,850,50,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+aya-expanse-8b,en,de,0.7366642335713551,900,900,900,872,28,809,91,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+aya-expanse-8b,en,zh,0.7246490722324601,900,900,900,872,28,860,40,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+aya-expanse-8b,pt,es,0.8189914027658998,900,900,900,864,36,850,50,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+aya-expanse-8b,pt,de,0.8082124770346898,900,900,900,864,36,809,91,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+aya-expanse-8b,pt,zh,0.7926204225532075,900,900,900,864,36,860,40,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+aya-expanse-8b,es,de,0.8086938578281105,900,900,900,850,50,809,91,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+aya-expanse-8b,es,zh,0.7902497446611518,900,900,900,850,50,860,40,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+aya-expanse-8b,de,zh,0.8066162729881882,900,900,900,809,91,860,40,full 900-item DeceptionBench corpus (admitted + nonadmitted)

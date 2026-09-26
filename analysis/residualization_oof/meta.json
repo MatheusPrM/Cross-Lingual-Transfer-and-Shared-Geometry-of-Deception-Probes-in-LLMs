@@ -1,0 +1,11 @@
+{
+ "created_utc": "2026-08-07T02:44:39.010932+00:00",
+ "folds": {
+  "n": 5,
+  "seed": 42,
+  "rule": "scenario-grouped, one fold per scenario shared across evaluation languages (round-robin over a seeded permutation of the archived frame)"
+ },
+ "residualizer": "per model and evaluation language: OLS of each training-language deception score on [intercept, four evaluation-language control scores, response length]; fitted on four folds, applied held-out; complete procedure repeated inside every ARCHIVED bootstrap replicate (no new resampling)",
+ "gates": "frames from archived npz; point raw AUROCs reproduce archived cells to 1e-9 (asserted per cell)",
+ "converse": "NOT recomputed; archived in-sample converse remains appendix-tier with explicit labeling"
+}

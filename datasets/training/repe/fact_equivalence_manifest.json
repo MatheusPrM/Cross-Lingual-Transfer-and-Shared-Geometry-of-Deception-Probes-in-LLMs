@@ -1,0 +1,1017 @@
+{
+ "created_utc": "2026-09-22T04:22:53.274644+00:00",
+ "method": "mechanical union over all five languages (exact normalized text + token Jaccard>0.8 for segmented scripts + char 3-gram Jaccard>0.8 for unsegmented scripts) + frozen semantic pair list from a full review of all 306 facts (multi-channel candidates + topic-sorted read-through), adjudicated before any half-probe fit existed",
+ "claim": "disjoint row IDs with duplicate-equivalent facts grouped — not absolute semantic independence",
+ "fact_universe": "label==1 rows of the training CSVs, file order, head(512)",
+ "n_facts": 306,
+ "n_components": 256,
+ "n_multi_member_groups": 42,
+ "corpus_sha256": {
+  "en": "924709159b40a30d5b51488e9ccd7fd886456a89f0e0f5849eacefba6ff55312",
+  "pt": "e74b442dc1973f599a60153b736afa02d29d96ce6c50cb22392a5cb83df1c445",
+  "es": "78ab9daea99b0e5d84beccd6629186b084240195bde41331486060b4485bf3a0",
+  "de": "7ad0efefe11d2b5c4c28c5a6623720ad009da7123515ba44c7353a195df61be9",
+  "zh": "52bb54ede312dfeaa2d2af9521733699c15c4b2e35db928a144d74e9866cec12"
+ },
+ "groups": {
+  "1": {
+   "members": [
+    1,
+    235
+   ],
+   "statements_en": [
+    "The theory of evolution, proposed by Charles Darwin, states that species evolve over time through natural selection.",
+    "Evolution occurs through the process of natural selection."
+   ]
+  },
+  "2": {
+   "members": [
+    2,
+    44,
+    147
+   ],
+   "statements_en": [
+    "The smallest planet in our solar system is Mercury.",
+    "Mercury is the smallest planet.",
+    "The smallest planet in our solar system is Mercury."
+   ]
+  },
+  "11": {
+   "members": [
+    11,
+    188
+   ],
+   "statements_en": [
+    "The scientific method is a systematic process for investigating phenomena and acquiring new knowledge.",
+    "The scientific method is a process for testing hypotheses and acquiring knowledge."
+   ]
+  },
+  "14": {
+   "members": [
+    14,
+    26
+   ],
+   "statements_en": [
+    "The color of the sky is blue.",
+    "The sky is blue."
+   ]
+  },
+  "18": {
+   "members": [
+    18,
+    264
+   ],
+   "statements_en": [
+    "Uranus orbits the Sun on its side.",
+    "The planet Uranus is tilted on its side."
+   ]
+  },
+  "20": {
+   "members": [
+    20,
+    110
+   ],
+   "statements_en": [
+    "The first successful powered flight was made by the Wright Brothers in 1903.",
+    "The Wright brothers made the first successful airplane flight."
+   ]
+  },
+  "22": {
+   "members": [
+    22,
+    95
+   ],
+   "statements_en": [
+    "The human eye can detect millions of different colors.",
+    "The human eye can distinguish about 10 million different colors."
+   ]
+  },
+  "28": {
+   "members": [
+    28,
+    251
+   ],
+   "statements_en": [
+    "The Earth is round.",
+    "The Earth is round."
+   ]
+  },
+  "30": {
+   "members": [
+    30,
+    278
+   ],
+   "statements_en": [
+    "The endocrine system regulates body functions through hormones.",
+    "The human endocrine system produces hormones that regulate various bodily functions."
+   ]
+  },
+  "31": {
+   "members": [
+    31,
+    173
+   ],
+   "statements_en": [
+    "The human body is composed of about 60% water.",
+    "The human body is approximately 60% water."
+   ]
+  },
+  "32": {
+   "members": [
+    32,
+    213
+   ],
+   "statements_en": [
+    "The Great Wall of China is the longest wall in the world.",
+    "The Great Wall of China is the longest wall in the world."
+   ]
+  },
+  "43": {
+   "members": [
+    43,
+    191
+   ],
+   "statements_en": [
+    "The Earth's tides are primarily caused by the gravitational pull of the moon.",
+    "Tides are caused by the gravitational interactions between the Earth, Moon, and Sun."
+   ]
+  },
+  "48": {
+   "members": [
+    48,
+    105
+   ],
+   "statements_en": [
+    "The immune system defends the body against pathogens.",
+    "The human immune system helps protect the body from infections."
+   ]
+  },
+  "51": {
+   "members": [
+    51,
+    162
+   ],
+   "statements_en": [
+    "The human brain controls the body's functions.",
+    "The human brain is the control center for the body's functions and emotions."
+   ]
+  },
+  "52": {
+   "members": [
+    52,
+    142
+   ],
+   "statements_en": [
+    "Cells are the basic units of life.",
+    "The smallest unit of life is the cell."
+   ]
+  },
+  "53": {
+   "members": [
+    53,
+    223,
+    280
+   ],
+   "statements_en": [
+    "The largest desert in the world is the Sahara Desert.",
+    "The Sahara is the largest hot desert.",
+    "The Sahara Desert is the largest hot desert in the world."
+   ]
+  },
+  "59": {
+   "members": [
+    59,
+    208,
+    270
+   ],
+   "statements_en": [
+    "Sound travels as a wave through various mediums.",
+    "Sound travels through the air as vibrations.",
+    "Sound travels through the air as waves."
+   ]
+  },
+  "65": {
+   "members": [
+    65,
+    260
+   ],
+   "statements_en": [
+    "Water freezes at 0 degrees Celsius (32 degrees Fahrenheit).",
+    "Water freezes at 0 degrees Celsius (32 degrees Fahrenheit) and boils at 100 degrees Celsius (212 degrees Fahrenheit)."
+   ]
+  },
+  "76": {
+   "members": [
+    76,
+    81
+   ],
+   "statements_en": [
+    "The Great Barrier Reef is the largest coral reef system in the world.",
+    "The Great Barrier Reef is the largest coral reef system in the world."
+   ]
+  },
+  "87": {
+   "members": [
+    87,
+    204
+   ],
+   "statements_en": [
+    "Humans have five senses: sight, hearing, touch, taste, and smell.",
+    "Humans have five basic senses."
+   ]
+  },
+  "91": {
+   "members": [
+    91,
+    269
+   ],
+   "statements_en": [
+    "The first law of thermodynamics states that energy cannot be created or destroyed, only converted from one form to another.",
+    "The conservation of energy principle states that energy cannot be created or destroyed."
+   ]
+  },
+  "93": {
+   "members": [
+    93,
+    211
+   ],
+   "statements_en": [
+    "The currency used in Japan is the yen.",
+    "The currency of Japan is the yen."
+   ]
+  },
+  "96": {
+   "members": [
+    96,
+    139,
+    164
+   ],
+   "statements_en": [
+    "The world's largest mammal is the blue whale.",
+    "The largest mammal in the world is the blue whale.",
+    "The largest mammal on Earth is the blue whale."
+   ]
+  },
+  "98": {
+   "members": [
+    98,
+    100,
+    290
+   ],
+   "statements_en": [
+    "Gravity makes things fall down.",
+    "Gravity is the force that attracts objects with mass towards each other.",
+    "Gravity pulls objects towards each other."
+   ]
+  },
+  "109": {
+   "members": [
+    109,
+    168
+   ],
+   "statements_en": [
+    "Tornadoes are rapidly rotating columns of air.",
+    "Tornadoes are rapidly rotating columns of air that can cause extensive damage."
+   ]
+  },
+  "134": {
+   "members": [
+    134,
+    273
+   ],
+   "statements_en": [
+    "Earth has one moon.",
+    "The Earth has one moon."
+   ]
+  },
+  "135": {
+   "members": [
+    135,
+    180
+   ],
+   "statements_en": [
+    "Ice cream is a popular dessert.",
+    "Ice cream is a popular dessert."
+   ]
+  },
+  "136": {
+   "members": [
+    136,
+    175
+   ],
+   "statements_en": [
+    "The largest country in the world by area is Russia.",
+    "The largest country in the world by land area is Russia."
+   ]
+  },
+  "138": {
+   "members": [
+    138,
+    179
+   ],
+   "statements_en": [
+    "Plants use photosynthesis to create energy from sunlight.",
+    "Photosynthesis is the process by which plants convert sunlight into chemical energy."
+   ]
+  },
+  "140": {
+   "members": [
+    140,
+    220,
+    292
+   ],
+   "statements_en": [
+    "The human body has 206 bones.",
+    "The human body has 206 bones.",
+    "The human body has 206 bones."
+   ]
+  },
+  "145": {
+   "members": [
+    145,
+    170
+   ],
+   "statements_en": [
+    "The human respiratory system includes the trachea, bronchi, and lungs.",
+    "The human respiratory system consists of lungs and airways."
+   ]
+  },
+  "154": {
+   "members": [
+    154,
+    300
+   ],
+   "statements_en": [
+    "The first Olympic Games were held in ancient Greece in 776 B.C.",
+    "The first Olympic Games were held in ancient Greece in 776 BC."
+   ]
+  },
+  "166": {
+   "members": [
+    166,
+    197
+   ],
+   "statements_en": [
+    "The speed of light is 299,792,458 meters per second.",
+    "The speed of light is approximately 299,792,458 meters per second."
+   ]
+  },
+  "190": {
+   "members": [
+    190,
+    237
+   ],
+   "statements_en": [
+    "Fossils are the preserved remains or traces of organisms that lived in the past.",
+    "Fossils provide evidence of past life on Earth."
+   ]
+  },
+  "192": {
+   "members": [
+    192,
+    215
+   ],
+   "statements_en": [
+    "The planet Mars has the largest volcano in our solar system.",
+    "Mars has the largest volcano, Olympus Mons."
+   ]
+  },
+  "193": {
+   "members": [
+    193,
+    294
+   ],
+   "statements_en": [
+    "The process by which plants release oxygen and absorb carbon dioxide is called respiration.",
+    "Trees absorb carbon dioxide and release oxygen."
+   ]
+  },
+  "198": {
+   "members": [
+    198,
+    248
+   ],
+   "statements_en": [
+    "Rainbows form when light refracts through water droplets.",
+    "Rainbows are formed when light is refracted through water droplets in the air."
+   ]
+  },
+  "210": {
+   "members": [
+    210,
+    250
+   ],
+   "statements_en": [
+    "The sun is a star.",
+    "The Sun is a star."
+   ]
+  },
+  "219": {
+   "members": [
+    219,
+    229
+   ],
+   "statements_en": [
+    "Diamonds are made of carbon.",
+    "Diamonds are formed from carbon."
+   ]
+  },
+  "227": {
+   "members": [
+    227,
+    243,
+    244
+   ],
+   "statements_en": [
+    "Oxygen is necessary for humans to breathe.",
+    "Oxygen is essential for human life.",
+    "Oxygen is essential for respiration."
+   ]
+  },
+  "239": {
+   "members": [
+    239,
+    287,
+    298
+   ],
+   "statements_en": [
+    "The Pacific Ocean is the largest ocean in the world.",
+    "The Earth's largest ocean is the Pacific Ocean.",
+    "The largest ocean in the world is the Pacific Ocean."
+   ]
+  },
+  "265": {
+   "members": [
+    265,
+    291
+   ],
+   "statements_en": [
+    "The sun rises in the east and sets in the west.",
+    "The sun rises in the east and sets in the west."
+   ]
+  }
+ },
+ "semantic_pairs": [
+  {
+   "a": 26,
+   "b": 14,
+   "reason": "same proposition"
+  },
+  {
+   "a": 44,
+   "b": 2,
+   "reason": "same proposition"
+  },
+  {
+   "a": 164,
+   "b": 96,
+   "reason": "same proposition"
+  },
+  {
+   "a": 211,
+   "b": 93,
+   "reason": "same proposition"
+  },
+  {
+   "a": 287,
+   "b": 298,
+   "reason": "same proposition"
+  },
+  {
+   "a": 208,
+   "b": 270,
+   "reason": "same proposition"
+  },
+  {
+   "a": 59,
+   "b": 270,
+   "reason": "same proposition (medium generalized)"
+  },
+  {
+   "a": 109,
+   "b": 168,
+   "reason": "literal containment"
+  },
+  {
+   "a": 65,
+   "b": 260,
+   "reason": "literal containment"
+  },
+  {
+   "a": 198,
+   "b": 248,
+   "reason": "same proposition"
+  },
+  {
+   "a": 219,
+   "b": 229,
+   "reason": "same proposition"
+  },
+  {
+   "a": 100,
+   "b": 290,
+   "reason": "same proposition"
+  },
+  {
+   "a": 98,
+   "b": 290,
+   "reason": "same proposition (everyday formulation)"
+  },
+  {
+   "a": 18,
+   "b": 264,
+   "reason": "same proposition"
+  },
+  {
+   "a": 138,
+   "b": 179,
+   "reason": "same proposition"
+  },
+  {
+   "a": 91,
+   "b": 269,
+   "reason": "same proposition (naming differs)"
+  },
+  {
+   "a": 192,
+   "b": 215,
+   "reason": "same proposition"
+  },
+  {
+   "a": 11,
+   "b": 188,
+   "reason": "same proposition (definition wording)"
+  },
+  {
+   "a": 51,
+   "b": 162,
+   "reason": "same proposition + containment"
+  },
+  {
+   "a": 20,
+   "b": 110,
+   "reason": "same proposition (year attribution)"
+  },
+  {
+   "a": 22,
+   "b": 95,
+   "reason": "same proposition (precision differs)"
+  },
+  {
+   "a": 145,
+   "b": 170,
+   "reason": "same proposition (composition granularity)"
+  },
+  {
+   "a": 193,
+   "b": 294,
+   "reason": "same gas-exchange proposition (plants/trees)"
+  },
+  {
+   "a": 43,
+   "b": 191,
+   "reason": "same proposition (cause granularity)"
+  },
+  {
+   "a": 243,
+   "b": 227,
+   "reason": "same proposition"
+  },
+  {
+   "a": 243,
+   "b": 244,
+   "reason": "same proposition (life/breathing)"
+  },
+  {
+   "a": 87,
+   "b": 204,
+   "reason": "same proposition + containment"
+  },
+  {
+   "a": 48,
+   "b": 105,
+   "reason": "same proposition"
+  },
+  {
+   "a": 30,
+   "b": 278,
+   "reason": "same proposition"
+  },
+  {
+   "a": 1,
+   "b": 235,
+   "reason": "same proposition (attribution differs)"
+  },
+  {
+   "a": 52,
+   "b": 142,
+   "reason": "same proposition"
+  },
+  {
+   "a": 190,
+   "b": 237,
+   "reason": "same proposition (definition/evidential wording)"
+  }
+ ],
+ "excluded_pairs_reviewed": [
+  {
+   "a": "earths atmosphere protects from radiation",
+   "b": "ozone layer protects from UV",
+   "reason": "different subject (atmosphere vs ozone layer)"
+  },
+  {
+   "a": "auroras are caused by solar particles",
+   "b": "auroras occur near polar regions",
+   "reason": "cause vs location"
+  },
+  {
+   "a": "earth has a magnetic field",
+   "b": "magnetic field makes compasses point north",
+   "reason": "existence vs causal effect"
+  },
+  {
+   "a": "atmosphere mostly nitrogen and oxygen",
+   "b": "most abundant gas is nitrogen",
+   "reason": "composition pair vs single most-abundant"
+  },
+  {
+   "a": "diamonds made of carbon",
+   "b": "diamonds are the hardest substance",
+   "reason": "composition vs hardness"
+  },
+  {
+   "a": "blue whale largest mammal",
+   "b": "elephants largest land animals",
+   "reason": "overall vs land scope"
+  },
+  {
+   "a": "moon orbits the earth",
+   "b": "earth has one moon",
+   "reason": "orbit vs count"
+  },
+  {
+   "a": "sublimation definition",
+   "b": "evaporation definition",
+   "reason": "different processes"
+  },
+  {
+   "a": "oxygen essential for human life",
+   "b": "water is essential for life",
+   "reason": "different substance"
+  },
+  {
+   "a": "photosynthesis converts sunlight to energy",
+   "b": "photosynthesis produces oxygen as a byproduct",
+   "reason": "energy conversion vs byproduct"
+  },
+  {
+   "a": "respiratory system composition",
+   "b": "respiratory system exchanges gases",
+   "reason": "composition vs function"
+  },
+  {
+   "a": "planet name origins (neptune/saturn/mars)",
+   "b": "-",
+   "reason": "different planets"
+  },
+  {
+   "a": "group-of-animals terms (school/pack/pride)",
+   "b": "-",
+   "reason": "different species"
+  },
+  {
+   "a": "jupiter largest planet",
+   "b": "jupiter most moons",
+   "reason": "different superlatives"
+  },
+  {
+   "a": "saturn largest rings",
+   "b": "saturn thousands of rings",
+   "reason": "largest vs count"
+  },
+  {
+   "a": "digestion begins in mouth",
+   "b": "digestive system breaks down food",
+   "reason": "anatomy-path vs function"
+  },
+  {
+   "a": "metamorphosis definition",
+   "b": "butterflies undergo metamorphosis",
+   "reason": "definition vs instance"
+  },
+  {
+   "a": "camouflage helps animals",
+   "b": "polar bears white fur camouflage",
+   "reason": "general vs instance"
+  }
+ ],
+ "group_assignment": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  14,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  2,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  76,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  22,
+  96,
+  97,
+  98,
+  99,
+  98,
+  101,
+  102,
+  103,
+  104,
+  48,
+  106,
+  107,
+  108,
+  109,
+  20,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  96,
+  140,
+  141,
+  52,
+  143,
+  144,
+  145,
+  146,
+  2,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  51,
+  163,
+  96,
+  165,
+  166,
+  167,
+  109,
+  169,
+  145,
+  171,
+  172,
+  31,
+  174,
+  136,
+  176,
+  177,
+  178,
+  138,
+  135,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  11,
+  189,
+  190,
+  43,
+  192,
+  193,
+  194,
+  195,
+  196,
+  166,
+  198,
+  199,
+  200,
+  201,
+  202,
+  203,
+  87,
+  205,
+  206,
+  207,
+  59,
+  209,
+  210,
+  93,
+  212,
+  32,
+  214,
+  192,
+  216,
+  217,
+  218,
+  219,
+  140,
+  221,
+  222,
+  53,
+  224,
+  225,
+  226,
+  227,
+  228,
+  219,
+  230,
+  231,
+  232,
+  233,
+  234,
+  1,
+  236,
+  190,
+  238,
+  239,
+  240,
+  241,
+  242,
+  227,
+  227,
+  245,
+  246,
+  247,
+  198,
+  249,
+  210,
+  28,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  65,
+  261,
+  262,
+  263,
+  18,
+  265,
+  266,
+  267,
+  268,
+  91,
+  59,
+  271,
+  272,
+  134,
+  274,
+  275,
+  276,
+  277,
+  30,
+  279,
+  53,
+  281,
+  282,
+  283,
+  284,
+  285,
+  286,
+  239,
+  288,
+  289,
+  98,
+  265,
+  140,
+  293,
+  193,
+  295,
+  296,
+  297,
+  239,
+  299,
+  154,
+  301,
+  302,
+  303,
+  304,
+  305
+ ],
+ "groups_sha256": "59fc1254f34dffc788e7d4244aee4721a4dcc3da2586607f17c5f4e0e07efcb9"
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+.env*
+.cache/
+/results/judge_cache/
+/results/activation_cache/
+/results/sweeps/
+/results/disjoint_pool/
+*_unjudged.json

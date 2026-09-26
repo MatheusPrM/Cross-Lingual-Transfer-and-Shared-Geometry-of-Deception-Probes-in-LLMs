@@ -1,0 +1,41 @@
+{
+  "chosen_layer": 18,
+  "val_auroc": 1.0,
+  "val_margin": 14.956010246276856,
+  "max_val_auroc": 1.0,
+  "epsilon": 0.005,
+  "tie_breaking_used": true,
+  "tie_break_rule": "val_margin",
+  "n_candidates": 5,
+  "candidate_layers": [
+    14,
+    16,
+    18,
+    20,
+    22
+  ],
+  "all_layer_val_aurocs": [
+    [
+      14,
+      1.0
+    ],
+    [
+      16,
+      1.0
+    ],
+    [
+      18,
+      1.0
+    ],
+    [
+      20,
+      1.0
+    ],
+    [
+      22,
+      1.0
+    ]
+  ],
+  "model": "qwen3.5-9b",
+  "train_data": "repe_generic_en"
+}

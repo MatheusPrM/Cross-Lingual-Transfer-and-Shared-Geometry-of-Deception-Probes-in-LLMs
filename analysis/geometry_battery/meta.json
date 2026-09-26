@@ -1,0 +1,161 @@
+{
+  "created_utc": "2026-07-30T20:53:55.619746+00:00",
+  "tier": "corrected cosines = primary geometry; CKA = exploratory complement; descriptive only",
+  "cka_alignment": "rows matched on (scenario_id, condition) across the parallel corpus",
+  "cka_population": "full 900-item DeceptionBench corpus (admitted + nonadmitted)",
+  "cka_expected_items": 900,
+  "corrected_cosine_population": "full-data REPE instructed-deception probe directions; dispersion over 10 grouped split-half reliability seeds",
+  "reliability_seeds_required": 10,
+  "models": {
+    "llama-8b": {
+      "layer": 16,
+      "cka_population_n_by_lang": {
+        "en": {
+          "total": 900,
+          "admitted": 381,
+          "nonadmitted": 519
+        },
+        "pt": {
+          "total": 900,
+          "admitted": 500,
+          "nonadmitted": 400
+        },
+        "es": {
+          "total": 900,
+          "admitted": 411,
+          "nonadmitted": 489
+        },
+        "de": {
+          "total": 900,
+          "admitted": 451,
+          "nonadmitted": 449
+        },
+        "zh": {
+          "total": 900,
+          "admitted": 480,
+          "nonadmitted": 420
+        }
+      }
+    },
+    "aya-expanse-8b": {
+      "layer": 18,
+      "cka_population_n_by_lang": {
+        "en": {
+          "total": 900,
+          "admitted": 872,
+          "nonadmitted": 28
+        },
+        "pt": {
+          "total": 900,
+          "admitted": 864,
+          "nonadmitted": 36
+        },
+        "es": {
+          "total": 900,
+          "admitted": 850,
+          "nonadmitted": 50
+        },
+        "de": {
+          "total": 900,
+          "admitted": 809,
+          "nonadmitted": 91
+        },
+        "zh": {
+          "total": 900,
+          "admitted": 860,
+          "nonadmitted": 40
+        }
+      }
+    },
+    "gemma-2b": {
+      "layer": 16,
+      "cka_population_n_by_lang": {
+        "en": {
+          "total": 900,
+          "admitted": 749,
+          "nonadmitted": 151
+        },
+        "pt": {
+          "total": 900,
+          "admitted": 736,
+          "nonadmitted": 164
+        },
+        "es": {
+          "total": 900,
+          "admitted": 695,
+          "nonadmitted": 205
+        },
+        "de": {
+          "total": 900,
+          "admitted": 620,
+          "nonadmitted": 280
+        },
+        "zh": {
+          "total": 900,
+          "admitted": 689,
+          "nonadmitted": 211
+        }
+      }
+    },
+    "gemma-4-e4b": {
+      "layer": 26,
+      "cka_population_n_by_lang": {
+        "en": {
+          "total": 900,
+          "admitted": 565,
+          "nonadmitted": 335
+        },
+        "pt": {
+          "total": 900,
+          "admitted": 695,
+          "nonadmitted": 205
+        },
+        "es": {
+          "total": 900,
+          "admitted": 681,
+          "nonadmitted": 219
+        },
+        "de": {
+          "total": 900,
+          "admitted": 524,
+          "nonadmitted": 376
+        },
+        "zh": {
+          "total": 900,
+          "admitted": 688,
+          "nonadmitted": 212
+        }
+      }
+    },
+    "qwen3.5-9b": {
+      "layer": 18,
+      "cka_population_n_by_lang": {
+        "en": {
+          "total": 900,
+          "admitted": 723,
+          "nonadmitted": 177
+        },
+        "pt": {
+          "total": 900,
+          "admitted": 725,
+          "nonadmitted": 175
+        },
+        "es": {
+          "total": 900,
+          "admitted": 715,
+          "nonadmitted": 185
+        },
+        "de": {
+          "total": 900,
+          "admitted": 513,
+          "nonadmitted": 387
+        },
+        "zh": {
+          "total": 900,
+          "admitted": 752,
+          "nonadmitted": 148
+        }
+      }
+    }
+  }
+}

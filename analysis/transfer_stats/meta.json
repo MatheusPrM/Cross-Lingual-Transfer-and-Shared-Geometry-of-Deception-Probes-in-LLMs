@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-07-30T20:50:28.073867+00:00",
+  "B": 2000,
+  "seed": 42,
+  "margin": 0.05,
+  "registered": true,
+  "grid_check": "passed",
+  "ci": "percentile 95%, unadjusted",
+  "multiplicity": "Holm over models",
+  "noninferiority_note": "p = (1+#{Delta* <= -margin})/(B+1) is the exact CI-inversion of the pre-specified claim rule (CI lower bound > -margin); for a location-shift bootstrap null the boundary-shifted test P(Delta*-Dhat <= -margin-Dhat) is algebraically identical.",
+  "native_vs_english": "per-lang paired deltas + per-model mean, two-sided approximate null-centered bootstrap p, Holm separately over the 5 models; percentile CIs remain unadjusted",
+  "models": {
+    "llama-8b": {
+      "layer": 16,
+      "n_scenarios": 138,
+      "frame_sha256": "525c44f81ba6afe353af0c066df325d9ea76d914599b9c468137afefbccd2d92",
+      "n_items": {
+        "de": 451,
+        "en": 381,
+        "es": 411,
+        "pt": 500,
+        "zh": 480
+      }
+    },
+    "aya-expanse-8b": {
+      "layer": 18,
+      "n_scenarios": 150,
+      "frame_sha256": "f7f7b197a862d5ccfd87b109253f248d548493e9226d1bee3b5a3ddb6c60e0d3",
+      "n_items": {
+        "de": 809,
+        "en": 872,
+        "es": 850,
+        "pt": 864,
+        "zh": 860
+      }
+    },
+    "gemma-2b": {
+      "layer": 16,
+      "n_scenarios": 149,
+      "frame_sha256": "c308e22476cc182efd64413ccf70f02754e7e4f908c970fd98f0e46dd39e830e",
+      "n_items": {
+        "de": 620,
+        "en": 749,
+        "es": 695,
+        "pt": 736,
+        "zh": 689
+      }
+    },
+    "gemma-4-e4b": {
+      "layer": 26,
+      "n_scenarios": 150,
+      "frame_sha256": "f7f7b197a862d5ccfd87b109253f248d548493e9226d1bee3b5a3ddb6c60e0d3",
+      "n_items": {
+        "de": 524,
+        "en": 565,
+        "es": 681,
+        "pt": 695,
+        "zh": 688
+      }
+    },
+    "qwen3.5-9b": {
+      "layer": 18,
+      "n_scenarios": 150,
+      "frame_sha256": "f7f7b197a862d5ccfd87b109253f248d548493e9226d1bee3b5a3ddb6c60e0d3",
+      "n_items": {
+        "de": 513,
+        "en": 723,
+        "es": 715,
+        "pt": 725,
+        "zh": 752
+      }
+    }
+  }
+}

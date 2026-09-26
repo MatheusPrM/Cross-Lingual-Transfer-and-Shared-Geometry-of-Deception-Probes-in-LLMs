@@ -1,0 +1,11 @@
+model,lang_a,lang_b,cka_linear,n_matched,n_a,n_b,n_admitted_a,n_nonadmitted_a,n_admitted_b,n_nonadmitted_b,population
+gemma-4-e4b,en,pt,0.31375579626569305,900,900,900,565,335,695,205,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+gemma-4-e4b,en,es,0.33789579429219935,900,900,900,565,335,681,219,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+gemma-4-e4b,en,de,0.3268878903069425,900,900,900,565,335,524,376,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+gemma-4-e4b,en,zh,0.32090850424196027,900,900,900,565,335,688,212,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+gemma-4-e4b,pt,es,0.6885923772504627,900,900,900,695,205,681,219,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+gemma-4-e4b,pt,de,0.6597676414246032,900,900,900,695,205,524,376,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+gemma-4-e4b,pt,zh,0.554638338253691,900,900,900,695,205,688,212,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+gemma-4-e4b,es,de,0.6283665553730956,900,900,900,681,219,524,376,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+gemma-4-e4b,es,zh,0.5882219645558803,900,900,900,681,219,688,212,full 900-item DeceptionBench corpus (admitted + nonadmitted)
+gemma-4-e4b,de,zh,0.5645279213627747,900,900,900,524,376,688,212,full 900-item DeceptionBench corpus (admitted + nonadmitted)
